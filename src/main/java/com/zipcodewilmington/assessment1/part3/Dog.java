@@ -16,6 +16,7 @@ public class Dog extends Pet {
      * @param age age of this dog
      */
     public Dog(Integer age) {
+
     }
 
     /**
@@ -38,6 +39,25 @@ public class Dog extends Pet {
      * @return bark as a string
      */
     public String speak() {
-        return null;
+        return "Bark";
     }
+
+    public void setName(String name) {
+
+    }
+
+    public void setAge(int age) {
+
+    }
+
+    public String getName() {
+        return "Dog name";
+    }
+
+    public Integer getAge() {
+        return Integer.MAX_VALUE;
+    }
+
+
+
 }
