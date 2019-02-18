@@ -69,7 +69,7 @@ public class PetOwner {
      * @return the name property of the Pet
      */
     public String getName() {
-        return "Pet owner Name";
+        return "Pet owner name";
     }
 
     /**
