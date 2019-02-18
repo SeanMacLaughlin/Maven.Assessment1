@@ -6,10 +6,20 @@ public class Jumper {
      * Complete the function below.
      */
     public int jumps(int k, int j) {
-        int jumpsX = 0;
+        int jCount= 0;
+        int oneCount = 0;
+        int jumpMan = 0;
 
+       while (j <= k) {
+            jCount++;
+            k = k - j;
+        }
+        while (j > k) {
+            oneCount = k;
+            break;
+        }
 
-
-        return -1;
+        jumpMan = jCount + oneCount;
+        return jumpMan;
     }
 }
